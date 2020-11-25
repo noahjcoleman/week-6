@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(194, 194, 194);
+    margin: 0 200px 0 200px;
+}
+h1 {
+    font-family: Helvetica, arial, sans-serif;
+    padding-bottom: 20px;
+    border-bottom: solid black 2px;
+    margin-right: 800px;
+}
+.boxes {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 2px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 750px;
+}
+.price {
+    text-align: left;
+    width: 33%;
+}
+.name {
+    text-align: left;
+    width: 33%;
+}
+.details {
+    text-align: left;
+    width: 33%;
+}
+button {
+    font-family: Helvetica, arial, sans-serif;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid black 2px;
+    width: 210px;
+}
+.dark-mode {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+.dark-mode h1 {
+    border-color: white;
+}
+.dark-mode .boxes {
+    color: white;
+    background-color: rgb(80, 80, 80);
+    box-shadow: rgb(119, 119, 119);
+}
